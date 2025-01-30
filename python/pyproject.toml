@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Jurify"
+version = "0.1.0"
+description = ""
+authors = ["anton-cornak"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nltk = "^3.9.1"
+regex = "^2024.11.6"
+python-docx = "^1.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
